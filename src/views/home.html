@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body class="bg-light">
+    <main>
+      @require('../partials/header.html')
+      <section class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            @require('../partials/product-list.html')
+          </div>
+        </div>
+      </section>
+      @require('../partials/footer.html')
+    </main>
+  </body>
+</html>
